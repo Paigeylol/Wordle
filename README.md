@@ -1,5 +1,5 @@
 # A simplified Wordle
-
+https://paigeylol.github.io/Wordle/
 ## Built With
 * JavaScript
 * HTML
