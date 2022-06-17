@@ -13,7 +13,6 @@ function abc(){
   let newWord = ""
   let i = 0;
   allWords.forEach(function(userItem) {
-    console.log(userItem.textContent + "$$$$")
     if (i < getfirstLetterId(counter) + 5 && i >= getfirstLetterId(counter)){
       newWord += userItem.textContent
     }
@@ -64,7 +63,3 @@ function createSquares() {
       if ((index + 1) % 5 ==0) {groupCount ++} //
     }
    }
-// Areas for improvement
-// Sumbit onkey press, Validation on letters (can be empty on screen and grey tiles come up)
-// don't have tile flipping or any animations or sounds
-//What i learned (demo, talk about area from improvement) (during the debugging process i did alot of consolelog cause i kept getting stuck on the most silly things)

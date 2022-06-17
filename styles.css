@@ -10,24 +10,24 @@
   html,
   body {
     height: 100%;
-    font-family: "Lucida Sans",
+    font-family: "Times New Roman", Times, serif;
   }
   
   #container {
     display: flex;
-    background-color: purple;
+    background-color: rgb(76, 80, 116);
     height: 100%;
     align-items: center;
     flex-direction: column;
   }
   
   .title {
-    color: rgb(34, 158, 42);
+    color: rgb(49, 205, 54);
     font-size: 2.5rem;
     font-weight: bold;
     margin: 0.5rem 0 0.5rem 0;
     text-align: center;
-    font-family: "Lucida Sans",
+    font-family: "Lucida Console", "Courier New", monospace;
   }
 
 
@@ -57,12 +57,12 @@
   
 
   .square {
-    border: 2px solid rgb(10, 10, 206);
+    border: 2px solid rgb(0, 0, 0);
     min-width: 60px;
     min-height: 60px;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(10, 6, 106);
+    color: rgb(192, 155, 155);
     text-transform: uppercase;
   
     display: flex;
