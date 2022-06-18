@@ -22,7 +22,7 @@ function abc(){
   
   wordle(newWord)
 }
-function wordle(str){
+function wordle(str){ 
 
 
 for ( let i = 0; i < answer.length; i ++) {
@@ -30,7 +30,7 @@ for ( let i = 0; i < answer.length; i ++) {
    const letterId = getfirstLetterId(counter) + i;
    const letterEl = document.getElementById(letterId);
    
-   if (value > -1) {
+   if (value > -1) { //makes colour on tiles be the colours 
        if (value ==i ){
            letterEl.style = `background-color:green;border-color:green`;
         } else {
@@ -60,6 +60,6 @@ function createSquares() {
         square.setAttribute("onkeypress","return (this.innerText.length <= 0)") //Type1letter
         square.setAttribute("max","1")
       gameBoard.appendChild(square);
-      if ((index + 1) % 5 ==0) {groupCount ++} 
-    }
+      if ((index + 1) % 5 ==0) {groupCount ++}  // every 5 letters, it becomes a new line, every line is one group
    }
+  }
